@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-col, 
+.right-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.right-col{
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+h1,
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    object-fit: cover;
+}

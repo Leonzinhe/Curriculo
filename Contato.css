@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+
+}
+
+.telefone, 
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    padding: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.email img{
+    width: 50px;
+    height: 50px;
+}
+.email h3{
+    font-size: 20px;
+}
+.telefone h3{
+    font-size: 20px;
+}
+.telefone img{
+    width: 50px;
+    height: 50px;
+}
